@@ -28,3 +28,5 @@ git commit -am "New artist updates"
 
 # Send updates to Github
 git push
+
+sleep 30
