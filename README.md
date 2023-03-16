@@ -16,7 +16,7 @@ This is a group of shell scripts to help artist to interact with engineers by gi
 
 Let get start coping and paste these '.sh' files to the same destination folder you want create your project;
 
-```
+```path
 -- DestinationFolder
 -- -- ProjectFolder [Future path]
 -- -- file-settings.txt
