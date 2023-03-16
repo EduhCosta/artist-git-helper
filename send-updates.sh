@@ -18,7 +18,7 @@ cd ./$folderName
 git branch -D "art/new-assets"
 
 # Create a new branch to work
-git checkout -b "art/new-assets"
+git checkout -b "art/new-assets" 
 
 # Add updates
 git add .
@@ -29,4 +29,5 @@ git commit -am "New artist updates"
 # Send updates to Github
 git push --set-upstream origin art/new-assets
 
-sleep 30
+read -p "Press any key to continue" x
+#SHELL
