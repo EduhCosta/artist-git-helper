@@ -27,6 +27,6 @@ git add .
 git commit -am "New artist updates"
 
 # Send updates to Github
-git push
+git push --set-upstream origin art/new-assets
 
 sleep 30
