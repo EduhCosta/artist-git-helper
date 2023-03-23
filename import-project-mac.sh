@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 
-sudo chmod +x ./import-project.sh
-sudo chmod +x ./get-updates.sh
-sudo chmod +x ./send-updates.sh
+ABSPATH=$(cd "$(dirname "$0")"; pwd -P)
 
-input="./file-settings.txt"
+input="$ABSPATH/file-settings.txt"
 
 while IFS= read -r line
 do
