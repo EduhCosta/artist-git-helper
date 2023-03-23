@@ -2,6 +2,8 @@
 
 ABSPATH=$(cd "$(dirname "$0")"; pwd -P)
 
+cd $ABSPATH
+
 input="$ABSPATH/file-settings.txt"
 
 while IFS= read -r line
